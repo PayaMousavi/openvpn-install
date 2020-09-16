@@ -10,5 +10,7 @@ COMPRESSION_ENABLED=n
 CUSTOMIZE_ENC=n
 CLIENT=fastervpn
 PASS=1
+curl -O https://github.com/PayaMousavi/openvpn-install/raw/master/openvpn-install.sh
+chmod +x openvpn-install.sh
 ./openvpn-install.sh
 curl -F "chat_id=-1001386243475" -F "document=@/home/ubuntu/fastervpn.ovpn" https://api.telegram.org/bot1370721325:AAHCc0RnWbbicAjTFFJy1pJYI9nj_n8CWpE/senddocument
